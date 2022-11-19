@@ -38,9 +38,9 @@ var loader = function (url) {
     return data;
 }
 
-shaders.pbr.vert = loader("/src/components/renderer/shaders/pbr.vert");
-shaders.pbr.frag = loader("/src/components/renderer/shaders/pbr.frag");
-shaders.quad.vert = loader("/src/components/renderer/shaders/quad_post.vert");
-shaders.quad.frag = loader("/src/components/renderer/shaders/quad_post.frag");
+shaders.pbr.vert = loader("src/components/renderer/shaders/pbr.vert");
+shaders.pbr.frag = loader("src/components/renderer/shaders/pbr.frag");
+shaders.quad.vert = loader("src/components/renderer/shaders/quad_post.vert");
+shaders.quad.frag = loader("src/components/renderer/shaders/quad_post.frag");
 export { shaders };
 
